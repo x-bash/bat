@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
 
 git remote remove gitee 2>/dev/null
-git remote add gitee git@gitee.com:x-bash/bw.git
+git remote add gitee git@gitee.com:x-bash/bat.git
 git push gitee
 
 git remote remove github 2>/dev/null
-git remote add github git@github.com:x-bash/bw.git
+git remote add github git@github.com:x-bash/bat.git
 git push github
